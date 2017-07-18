@@ -7,48 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0121D82C1F1DBACF0078B979 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0121D82B1F1DBACF0078B979 /* Extentions.swift */; };
+		0121D82E1F1DC4650078B979 /* BrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0121D82D1F1DC4650078B979 /* BrandCell.swift */; };
 		015EFB9B1F1C61500015E97A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFB9A1F1C61500015E97A /* AppDelegate.swift */; };
 		015EFBA01F1C61500015E97A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015EFB9E1F1C61500015E97A /* Main.storyboard */; };
 		015EFBA21F1C61500015E97A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 015EFBA11F1C61500015E97A /* Assets.xcassets */; };
 		015EFBA51F1C61500015E97A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015EFBA31F1C61500015E97A /* LaunchScreen.storyboard */; };
-		015EFBB01F1C61500015E97A /* Stylight_Technical_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBAF1F1C61500015E97A /* Stylight_Technical_TaskTests.swift */; };
-		015EFBBB1F1C61500015E97A /* Stylight_Technical_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBBA1F1C61500015E97A /* Stylight_Technical_TaskUITests.swift */; };
-		015EFBD01F1C63200015E97A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBCF1F1C63200015E97A /* ViewController.swift */; };
-		015EFBD11F1C63200015E97A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBCF1F1C63200015E97A /* ViewController.swift */; };
-		015EFBD21F1C63200015E97A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBCF1F1C63200015E97A /* ViewController.swift */; };
+		015EFBD01F1C63200015E97A /* BrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBCF1F1C63200015E97A /* BrandsViewController.swift */; };
+		015EFBD41F1C66570015E97A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBD31F1C66570015E97A /* Router.swift */; };
+		01A89FAF1F1D975800865941 /* BrandsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A89FAE1F1D975800865941 /* BrandsViewModel.swift */; };
+		01A89FB11F1D97F900865941 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A89FB01F1D97F900865941 /* Brand.swift */; };
+		E446CE5ECB8063112F5FF315 /* Pods_Stylight_Technical_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0355C7A197B0E045A4DBD476 /* Pods_Stylight_Technical_Task.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		015EFBAC1F1C61500015E97A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 015EFB8F1F1C61500015E97A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 015EFB961F1C61500015E97A;
-			remoteInfo = "Stylight Technical Task";
-		};
-		015EFBB71F1C61500015E97A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 015EFB8F1F1C61500015E97A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 015EFB961F1C61500015E97A;
-			remoteInfo = "Stylight Technical Task";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0121D82B1F1DBACF0078B979 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		0121D82D1F1DC4650078B979 /* BrandCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandCell.swift; sourceTree = "<group>"; };
 		015EFB971F1C61500015E97A /* Stylight Technical Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stylight Technical Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		015EFB9A1F1C61500015E97A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		015EFB9F1F1C61500015E97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		015EFBA11F1C61500015E97A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		015EFBA41F1C61500015E97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		015EFBA61F1C61500015E97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		015EFBAB1F1C61500015E97A /* Stylight Technical TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stylight Technical TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		015EFBAF1F1C61500015E97A /* Stylight_Technical_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylight_Technical_TaskTests.swift; sourceTree = "<group>"; };
-		015EFBB11F1C61500015E97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		015EFBB61F1C61500015E97A /* Stylight Technical TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stylight Technical TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		015EFBBA1F1C61500015E97A /* Stylight_Technical_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylight_Technical_TaskUITests.swift; sourceTree = "<group>"; };
-		015EFBBC1F1C61500015E97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		015EFBCF1F1C63200015E97A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		015EFBCF1F1C63200015E97A /* BrandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsViewController.swift; sourceTree = "<group>"; };
+		015EFBD31F1C66570015E97A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		015EFBD51F1C6D970015E97A /* Stylight Draft.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Stylight Draft.playground"; sourceTree = "<group>"; };
+		01A89FAE1F1D975800865941 /* BrandsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsViewModel.swift; sourceTree = "<group>"; };
+		01A89FB01F1D97F900865941 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		0355C7A197B0E045A4DBD476 /* Pods_Stylight_Technical_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stylight_Technical_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10661ED9A34215834694900B /* Pods_Stylight_Technical_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stylight_Technical_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66878ABAB81A84389A33077C /* Pods-Stylight Technical TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight Technical TaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight Technical TaskUITests/Pods-Stylight Technical TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B23CFBFE7F0473955D182FB /* Pods-Stylight Technical TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight Technical TaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight Technical TaskUITests/Pods-Stylight Technical TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E04EA03EC61BA64F7D0062C /* Pods-Stylight Technical TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight Technical TaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight Technical TaskTests/Pods-Stylight Technical TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		986A9697F17D00BC29EF9BF9 /* Pods-Stylight Technical Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight Technical Task.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight Technical Task/Pods-Stylight Technical Task.debug.xcconfig"; sourceTree = "<group>"; };
+		BFEFD9B0D816D1E15859EAD2 /* Pods-Stylight Technical TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight Technical TaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight Technical TaskTests/Pods-Stylight Technical TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C78FF07C4DEF4D3145AF629C /* Pods_Stylight_Technical_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stylight_Technical_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6028988684E0754D99DE00A /* Pods-Stylight Technical Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight Technical Task.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight Technical Task/Pods-Stylight Technical Task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		015EFBA81F1C61500015E97A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		015EFBB31F1C61500015E97A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E446CE5ECB8063112F5FF315 /* Pods_Stylight_Technical_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				015EFB991F1C61500015E97A /* Stylight Technical Task */,
-				015EFBAE1F1C61500015E97A /* Stylight Technical TaskTests */,
-				015EFBB91F1C61500015E97A /* Stylight Technical TaskUITests */,
 				015EFB981F1C61500015E97A /* Products */,
+				F5CADB2B69BA34478F9A82AE /* Pods */,
+				7347A94F652CE2278EB1AD81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				015EFB971F1C61500015E97A /* Stylight Technical Task.app */,
-				015EFBAB1F1C61500015E97A /* Stylight Technical TaskTests.xctest */,
-				015EFBB61F1C61500015E97A /* Stylight Technical TaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,39 +80,21 @@
 			children = (
 				015EFB9A1F1C61500015E97A /* AppDelegate.swift */,
 				015EFBC81F1C62F00015E97A /* Controllers */,
+				015EFBCD1F1C62F00015E97A /* Views */,
+				015EFBCC1F1C62F00015E97A /* ViewModels */,
+				015EFBCB1F1C62F00015E97A /* Models */,
 				015EFBC91F1C62F00015E97A /* Data Stores */,
 				015EFBCA1F1C62F00015E97A /* Helpers */,
-				015EFBCB1F1C62F00015E97A /* Models */,
-				015EFBCC1F1C62F00015E97A /* ViewModels */,
-				015EFBCD1F1C62F00015E97A /* Views */,
 				015EFBCE1F1C63020015E97A /* Others */,
 				015EFBA61F1C61500015E97A /* Info.plist */,
 			);
 			path = "Stylight Technical Task";
 			sourceTree = "<group>";
 		};
-		015EFBAE1F1C61500015E97A /* Stylight Technical TaskTests */ = {
-			isa = PBXGroup;
-			children = (
-				015EFBAF1F1C61500015E97A /* Stylight_Technical_TaskTests.swift */,
-				015EFBB11F1C61500015E97A /* Info.plist */,
-			);
-			path = "Stylight Technical TaskTests";
-			sourceTree = "<group>";
-		};
-		015EFBB91F1C61500015E97A /* Stylight Technical TaskUITests */ = {
-			isa = PBXGroup;
-			children = (
-				015EFBBA1F1C61500015E97A /* Stylight_Technical_TaskUITests.swift */,
-				015EFBBC1F1C61500015E97A /* Info.plist */,
-			);
-			path = "Stylight Technical TaskUITests";
-			sourceTree = "<group>";
-		};
 		015EFBC81F1C62F00015E97A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				015EFBCF1F1C63200015E97A /* ViewController.swift */,
+				015EFBCF1F1C63200015E97A /* BrandsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -148,6 +109,8 @@
 		015EFBCA1F1C62F00015E97A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				015EFBD31F1C66570015E97A /* Router.swift */,
+				0121D82B1F1DBACF0078B979 /* Extentions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -155,6 +118,7 @@
 		015EFBCB1F1C62F00015E97A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				01A89FB01F1D97F900865941 /* Brand.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +126,7 @@
 		015EFBCC1F1C62F00015E97A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				01A89FAE1F1D975800865941 /* BrandsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -169,6 +134,7 @@
 		015EFBCD1F1C62F00015E97A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0121D82D1F1DC4650078B979 /* BrandCell.swift */,
 				015EFB9E1F1C61500015E97A /* Main.storyboard */,
 				015EFBA11F1C61500015E97A /* Assets.xcassets */,
 				015EFBA31F1C61500015E97A /* LaunchScreen.storyboard */,
@@ -179,8 +145,32 @@
 		015EFBCE1F1C63020015E97A /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				015EFBD51F1C6D970015E97A /* Stylight Draft.playground */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		7347A94F652CE2278EB1AD81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0355C7A197B0E045A4DBD476 /* Pods_Stylight_Technical_Task.framework */,
+				C78FF07C4DEF4D3145AF629C /* Pods_Stylight_Technical_TaskTests.framework */,
+				10661ED9A34215834694900B /* Pods_Stylight_Technical_TaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CADB2B69BA34478F9A82AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986A9697F17D00BC29EF9BF9 /* Pods-Stylight Technical Task.debug.xcconfig */,
+				F6028988684E0754D99DE00A /* Pods-Stylight Technical Task.release.xcconfig */,
+				BFEFD9B0D816D1E15859EAD2 /* Pods-Stylight Technical TaskTests.debug.xcconfig */,
+				7E04EA03EC61BA64F7D0062C /* Pods-Stylight Technical TaskTests.release.xcconfig */,
+				7B23CFBFE7F0473955D182FB /* Pods-Stylight Technical TaskUITests.debug.xcconfig */,
+				66878ABAB81A84389A33077C /* Pods-Stylight Technical TaskUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015EFBBF1F1C61500015E97A /* Build configuration list for PBXNativeTarget "Stylight Technical Task" */;
 			buildPhases = (
+				B17EDF10A02A30A8EE3D4DBF /* [CP] Check Pods Manifest.lock */,
 				015EFB931F1C61500015E97A /* Sources */,
 				015EFB941F1C61500015E97A /* Frameworks */,
 				015EFB951F1C61500015E97A /* Resources */,
+				07D43C827373E5F86B1207DC /* [CP] Embed Pods Frameworks */,
+				8A9EED7D5318B0101E1935A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,42 +195,6 @@
 			productName = "Stylight Technical Task";
 			productReference = 015EFB971F1C61500015E97A /* Stylight Technical Task.app */;
 			productType = "com.apple.product-type.application";
-		};
-		015EFBAA1F1C61500015E97A /* Stylight Technical TaskTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 015EFBC21F1C61500015E97A /* Build configuration list for PBXNativeTarget "Stylight Technical TaskTests" */;
-			buildPhases = (
-				015EFBA71F1C61500015E97A /* Sources */,
-				015EFBA81F1C61500015E97A /* Frameworks */,
-				015EFBA91F1C61500015E97A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				015EFBAD1F1C61500015E97A /* PBXTargetDependency */,
-			);
-			name = "Stylight Technical TaskTests";
-			productName = "Stylight Technical TaskTests";
-			productReference = 015EFBAB1F1C61500015E97A /* Stylight Technical TaskTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		015EFBB51F1C61500015E97A /* Stylight Technical TaskUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 015EFBC51F1C61500015E97A /* Build configuration list for PBXNativeTarget "Stylight Technical TaskUITests" */;
-			buildPhases = (
-				015EFBB21F1C61500015E97A /* Sources */,
-				015EFBB31F1C61500015E97A /* Frameworks */,
-				015EFBB41F1C61500015E97A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				015EFBB81F1C61500015E97A /* PBXTargetDependency */,
-			);
-			name = "Stylight Technical TaskUITests";
-			productName = "Stylight Technical TaskUITests";
-			productReference = 015EFBB61F1C61500015E97A /* Stylight Technical TaskUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -253,18 +210,6 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = LG4XB4J5E3;
 						ProvisioningStyle = Automatic;
-					};
-					015EFBAA1F1C61500015E97A = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = LG4XB4J5E3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 015EFB961F1C61500015E97A;
-					};
-					015EFBB51F1C61500015E97A = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = LG4XB4J5E3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 015EFB961F1C61500015E97A;
 					};
 				};
 			};
@@ -282,8 +227,6 @@
 			projectRoot = "";
 			targets = (
 				015EFB961F1C61500015E97A /* Stylight Technical Task */,
-				015EFBAA1F1C61500015E97A /* Stylight Technical TaskTests */,
-				015EFBB51F1C61500015E97A /* Stylight Technical TaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,64 +242,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		015EFBA91F1C61500015E97A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		015EFBB41F1C61500015E97A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D43C827373E5F86B1207DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stylight Technical Task/Pods-Stylight Technical Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9EED7D5318B0101E1935A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stylight Technical Task/Pods-Stylight Technical Task-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17EDF10A02A30A8EE3D4DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		015EFB931F1C61500015E97A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015EFBD01F1C63200015E97A /* ViewController.swift in Sources */,
+				015EFBD01F1C63200015E97A /* BrandsViewController.swift in Sources */,
+				015EFBD41F1C66570015E97A /* Router.swift in Sources */,
+				0121D82C1F1DBACF0078B979 /* Extentions.swift in Sources */,
+				01A89FAF1F1D975800865941 /* BrandsViewModel.swift in Sources */,
+				01A89FB11F1D97F900865941 /* Brand.swift in Sources */,
+				0121D82E1F1DC4650078B979 /* BrandCell.swift in Sources */,
 				015EFB9B1F1C61500015E97A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		015EFBA71F1C61500015E97A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				015EFBD11F1C63200015E97A /* ViewController.swift in Sources */,
-				015EFBB01F1C61500015E97A /* Stylight_Technical_TaskTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		015EFBB21F1C61500015E97A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				015EFBD21F1C63200015E97A /* ViewController.swift in Sources */,
-				015EFBBB1F1C61500015E97A /* Stylight_Technical_TaskUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		015EFBAD1F1C61500015E97A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 015EFB961F1C61500015E97A /* Stylight Technical Task */;
-			targetProxy = 015EFBAC1F1C61500015E97A /* PBXContainerItemProxy */;
-		};
-		015EFBB81F1C61500015E97A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 015EFB961F1C61500015E97A /* Stylight Technical Task */;
-			targetProxy = 015EFBB71F1C61500015E97A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		015EFB9E1F1C61500015E97A /* Main.storyboard */ = {
@@ -475,10 +426,12 @@
 		};
 		015EFBC01F1C61500015E97A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986A9697F17D00BC29EF9BF9 /* Pods-Stylight Technical Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LG4XB4J5E3;
 				INFOPLIST_FILE = "Stylight Technical Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmad.atef.Stylight-Technical-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,72 +441,16 @@
 		};
 		015EFBC11F1C61500015E97A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6028988684E0754D99DE00A /* Pods-Stylight Technical Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LG4XB4J5E3;
 				INFOPLIST_FILE = "Stylight Technical Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmad.atef.Stylight-Technical-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		015EFBC31F1C61500015E97A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = LG4XB4J5E3;
-				INFOPLIST_FILE = "Stylight Technical TaskTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmad.atef.Stylight-Technical-TaskTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stylight Technical Task.app/Stylight Technical Task";
-			};
-			name = Debug;
-		};
-		015EFBC41F1C61500015E97A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = LG4XB4J5E3;
-				INFOPLIST_FILE = "Stylight Technical TaskTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmad.atef.Stylight-Technical-TaskTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stylight Technical Task.app/Stylight Technical Task";
-			};
-			name = Release;
-		};
-		015EFBC61F1C61500015E97A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = LG4XB4J5E3;
-				INFOPLIST_FILE = "Stylight Technical TaskUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmad.atef.Stylight-Technical-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Stylight Technical Task";
-			};
-			name = Debug;
-		};
-		015EFBC71F1C61500015E97A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = LG4XB4J5E3;
-				INFOPLIST_FILE = "Stylight Technical TaskUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmad.atef.Stylight-Technical-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Stylight Technical Task";
 			};
 			name = Release;
 		};
@@ -576,22 +473,7 @@
 				015EFBC11F1C61500015E97A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		015EFBC21F1C61500015E97A /* Build configuration list for PBXNativeTarget "Stylight Technical TaskTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				015EFBC31F1C61500015E97A /* Debug */,
-				015EFBC41F1C61500015E97A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		015EFBC51F1C61500015E97A /* Build configuration list for PBXNativeTarget "Stylight Technical TaskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				015EFBC61F1C61500015E97A /* Debug */,
-				015EFBC71F1C61500015E97A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
