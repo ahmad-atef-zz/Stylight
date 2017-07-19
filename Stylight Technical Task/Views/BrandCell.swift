@@ -7,8 +7,18 @@
 //
 
 import UIKit
+import BEMCheckBox
+
+protocol BrandCheckBoxDelegate {
+    func onBrandDidChecked(cell : BrandCell)
+}
 
 class BrandCell: UITableViewCell {
+    var delegate : BrandCheckBoxDelegate?
+    
     @IBOutlet weak var brandName: UILabel!
-    @IBOutlet weak var isSelectedBtn: UIButton!
+    @IBOutlet weak var checkBox: BEMCheckBox!
+    @IBAction func chechBoxDidTapped(_ sender: Any) {
+        delegate?.onBrandDidChecked(cell: self)
+    }
 }

@@ -8,8 +8,16 @@
 
 import Foundation
 
-struct Brand {
+public class Brand {
     var id : Int
     var name : String
     var logo : String
+    var isSelected : Bool
+    
+    init(id : Int,name : String,logo : String,isSelected : Bool = false) {
+        self.id = id
+        self.name = name
+        self.logo = logo
+        self.isSelected = isSelected
+    }
 }

@@ -33,19 +33,15 @@ enum Router: URLRequestConvertible {
         let result : (path : String, method : HTTPMethod) = {
             switch self {
             case .listBrands():
-                return ("brands",.GET)
+                return ("brands?apiKey=\(API_KEY)",.GET)
             }
         }()
         
         let url = URL(string: Router.baseURLString)
         var request = URLRequest(url: (url?.appendingPathComponent(result.path))!)
-        
-        let parameters: Parameters = ["apiKey": "C6490912AB3211E680F576304DEC7EB7"]
-        
-        
         print(request)
         request.httpMethod = result.method.rawValue
-        //request.timeoutInterval = REQUEST_TIMEOUT_INTERVAL
+        request.timeoutInterval = REQUEST_TIMEOUT_INTERVAL
         
         return request
     }
