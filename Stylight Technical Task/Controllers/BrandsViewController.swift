@@ -13,6 +13,9 @@ class BrandsViewController: UIViewController {
 
     //MARK: - Properties -
     fileprivate var viewModel : DataCollectorDelegate!
+    private var brandService : BrandSerive!
+    fileprivate var refreshControl: UIRefreshControl!
+    
     
     //MARK: - Outlets -
     @IBOutlet weak var tableView: UITableView!
@@ -21,8 +24,23 @@ class BrandsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel = BrandsViewModel(viewDelegate: self)
-        let brandService = BrandSrviceFactory.getServiceType(serviceType: .Remote)
+        brandService = BrandSrviceFactory.getServiceType(serviceType: .Remote)
+        addRefreshControll()
+        loadBrands()
+    }
+    
+    func loadBrands() {
+        refreshControl.beginRefreshing()
         viewModel.listItems(brandsService: brandService)
+    }
+    
+    //MARK: - Helper Methods -
+    
+    private func addRefreshControll(){
+        refreshControl = UIRefreshControl()
+        refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        refreshControl.addTarget(self, action: #selector (loadBrands), for: UIControlEvents.valueChanged)
+        tableView.addSubview(refreshControl)
     }
 }
 
@@ -70,14 +88,15 @@ extension BrandsViewController : BrandCheckBoxDelegate{
 //MARK: - BrandViewDelegate -
 extension BrandsViewController : BrandViewDelegate{
     func onDidSuccessLoadingData() {
-        
         DispatchQueue.main.async(){
+            self.refreshControl.endRefreshing()
             self.tableView.reloadData()
         }
     }
     
     func onDidFailLoadingData() {
-        
+        refreshControl.endRefreshing()
+        UIDecorator.shared.showMessage(title: "Error", body: "Fail Loading Brands", alertType: .error)
     }
 }
 
