@@ -19,10 +19,23 @@
 		019619071F1FC96000450660 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019619061F1FC96000450660 /* SectionData.swift */; };
 		019619091F20388000450660 /* UIDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019619081F20388000450660 /* UIDecorator.swift */; };
 		0196190B1F20395000450660 /* InternetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196190A1F20395000450660 /* InternetChecker.swift */; };
+		0196190D1F2048D200450660 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196190C1F2048D200450660 /* Extensions.swift */; };
+		019619201F204F0400450660 /* BrandsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196191F1F204F0400450660 /* BrandsServiceTests.swift */; };
+		019619221F2058FC00450660 /* BransMock.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019619211F2058FC00450660 /* BransMock.plist */; };
 		01A89FAF1F1D975800865941 /* BrandsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A89FAE1F1D975800865941 /* BrandsViewModel.swift */; };
 		01A89FB11F1D97F900865941 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A89FB01F1D97F900865941 /* Brand.swift */; };
 		E446CE5ECB8063112F5FF315 /* Pods_Stylight_Technical_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0355C7A197B0E045A4DBD476 /* Pods_Stylight_Technical_Task.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		019619171F204E3000450660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015EFB8F1F1C61500015E97A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 015EFB961F1C61500015E97A;
+			remoteInfo = "Stylight Technical Task";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0121D82B1F1DBACF0078B979 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
@@ -40,6 +53,11 @@
 		019619061F1FC96000450660 /* SectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
 		019619081F20388000450660 /* UIDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDecorator.swift; sourceTree = "<group>"; };
 		0196190A1F20395000450660 /* InternetChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetChecker.swift; sourceTree = "<group>"; };
+		0196190C1F2048D200450660 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		019619121F204E3000450660 /* StylightUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StylightUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019619161F204E3000450660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0196191F1F204F0400450660 /* BrandsServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsServiceTests.swift; sourceTree = "<group>"; };
+		019619211F2058FC00450660 /* BransMock.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BransMock.plist; sourceTree = "<group>"; };
 		01A89FAE1F1D975800865941 /* BrandsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsViewModel.swift; sourceTree = "<group>"; };
 		01A89FB01F1D97F900865941 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		0355C7A197B0E045A4DBD476 /* Pods_Stylight_Technical_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stylight_Technical_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0196190F1F204E3000450660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				015EFB991F1C61500015E97A /* Stylight Technical Task */,
+				019619131F204E3000450660 /* StylightUnitTests */,
 				015EFB981F1C61500015E97A /* Products */,
 				F5CADB2B69BA34478F9A82AE /* Pods */,
 				7347A94F652CE2278EB1AD81 /* Frameworks */,
@@ -79,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				015EFB971F1C61500015E97A /* Stylight Technical Task.app */,
+				019619121F204E3000450660 /* StylightUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +146,7 @@
 			children = (
 				015EFBD31F1C66570015E97A /* Router.swift */,
 				0121D82B1F1DBACF0078B979 /* Helpers.swift */,
+				0196190C1F2048D200450660 /* Extensions.swift */,
 				019619081F20388000450660 /* UIDecorator.swift */,
 				0196190A1F20395000450660 /* InternetChecker.swift */,
 			);
@@ -160,6 +188,40 @@
 				015EFBD51F1C6D970015E97A /* Stylight Draft.playground */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		019619131F204E3000450660 /* StylightUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0196191D1F204E6C00450660 /* Cases */,
+				0196191E1F204E7100450660 /* Data */,
+				0196191C1F204E5A00450660 /* Supporting Files */,
+			);
+			path = StylightUnitTests;
+			sourceTree = "<group>";
+		};
+		0196191C1F204E5A00450660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019619161F204E3000450660 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0196191D1F204E6C00450660 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				0196191F1F204F0400450660 /* BrandsServiceTests.swift */,
+			);
+			name = Cases;
+			sourceTree = "<group>";
+		};
+		0196191E1F204E7100450660 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				019619211F2058FC00450660 /* BransMock.plist */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		7347A94F652CE2278EB1AD81 /* Frameworks */ = {
@@ -208,6 +270,24 @@
 			productReference = 015EFB971F1C61500015E97A /* Stylight Technical Task.app */;
 			productType = "com.apple.product-type.application";
 		};
+		019619111F204E3000450660 /* StylightUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019619191F204E3000450660 /* Build configuration list for PBXNativeTarget "StylightUnitTests" */;
+			buildPhases = (
+				0196190E1F204E3000450660 /* Sources */,
+				0196190F1F204E3000450660 /* Frameworks */,
+				019619101F204E3000450660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019619181F204E3000450660 /* PBXTargetDependency */,
+			);
+			name = StylightUnitTests;
+			productName = StylightUnitTests;
+			productReference = 019619121F204E3000450660 /* StylightUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +302,13 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = LG4XB4J5E3;
 						ProvisioningStyle = Automatic;
+					};
+					019619111F204E3000450660 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LG4XB4J5E3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 015EFB961F1C61500015E97A;
 					};
 				};
 			};
@@ -239,6 +326,7 @@
 			projectRoot = "";
 			targets = (
 				015EFB961F1C61500015E97A /* Stylight Technical Task */,
+				019619111F204E3000450660 /* StylightUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +339,14 @@
 				015EFBA51F1C61500015E97A /* LaunchScreen.storyboard in Resources */,
 				015EFBA21F1C61500015E97A /* Assets.xcassets in Resources */,
 				015EFBA01F1C61500015E97A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019619101F204E3000450660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019619221F2058FC00450660 /* BransMock.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +412,7 @@
 				019619091F20388000450660 /* UIDecorator.swift in Sources */,
 				01A89FAF1F1D975800865941 /* BrandsViewModel.swift in Sources */,
 				01A89FB11F1D97F900865941 /* Brand.swift in Sources */,
+				0196190D1F2048D200450660 /* Extensions.swift in Sources */,
 				019619071F1FC96000450660 /* SectionData.swift in Sources */,
 				019619051F1ECC7100450660 /* BrandService.swift in Sources */,
 				0121D82E1F1DC4650078B979 /* BrandCell.swift in Sources */,
@@ -323,7 +420,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0196190E1F204E3000450660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019619201F204F0400450660 /* BrandsServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		019619181F204E3000450660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 015EFB961F1C61500015E97A /* Stylight Technical Task */;
+			targetProxy = 019619171F204E3000450660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		015EFB9E1F1C61500015E97A /* Main.storyboard */ = {
@@ -470,6 +583,37 @@
 			};
 			name = Release;
 		};
+		0196191A1F204E3000450660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LG4XB4J5E3;
+				INFOPLIST_FILE = StylightUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.atef.StylightUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stylight Technical Task.app/Stylight Technical Task";
+			};
+			name = Debug;
+		};
+		0196191B1F204E3000450660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LG4XB4J5E3;
+				INFOPLIST_FILE = StylightUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmad.atef.StylightUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stylight Technical Task.app/Stylight Technical Task";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,6 +634,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		019619191F204E3000450660 /* Build configuration list for PBXNativeTarget "StylightUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0196191A1F204E3000450660 /* Debug */,
+				0196191B1F204E3000450660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

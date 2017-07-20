@@ -48,6 +48,16 @@
                ReferencedContainer = "container:Stylight Technical Task.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "019619111F204E3000450660"
+               BuildableName = "StylightUnitTests.xctest"
+               BlueprintName = "StylightUnitTests"
+               ReferencedContainer = "container:Stylight Technical Task.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -11,7 +11,7 @@ import Foundation
 
 //MARK: - DataCollectorDelegate -
 public protocol DataCollectorDelegate {
-    var viewDelegate : BrandViewDelegate {get}
+    var viewDelegate : BrandViewDelegate? {get}
     func listItems(brandsService: BrandSerive)
     func numberOfSections() -> Int
     func numberOfRowsForSection(section: Int) -> Int
@@ -33,8 +33,11 @@ public protocol BrandViewDelegate {
 public class BrandsViewModel : DataCollectorDelegate{
     
     /// Injected Properties.
-    public var viewDelegate: BrandViewDelegate
+    public var viewDelegate: BrandViewDelegate?
     
+    init() {
+        
+    }
     init(viewDelegate: BrandViewDelegate) {
         self.viewDelegate = viewDelegate
     }
@@ -52,10 +55,10 @@ public class BrandsViewModel : DataCollectorDelegate{
             switch result{
             case .Success(let brands):
                 self.dataSource[1].brands = brands
-                self.viewDelegate.onDidSuccessLoadingData()
+                self.viewDelegate?.onDidSuccessLoadingData()
             case .Failuer(let error):
                 print(error)
-                self.viewDelegate.onDidSuccessLoadingData()
+                self.viewDelegate?.onDidSuccessLoadingData()
             }
         }
     }

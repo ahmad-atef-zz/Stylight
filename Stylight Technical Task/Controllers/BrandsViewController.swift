@@ -61,8 +61,19 @@ extension BrandsViewController : UITableViewDelegate, UITableViewDataSource{
         return cell
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return viewModel.titleForHeaderInSection(section: section)
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerText = UILabel()
+        headerText.adjustsFontSizeToFitWidth = true
+        headerText.font = UIFont.boldSystemFont(ofSize: 16.0)
+        headerText.textAlignment = .center
+        headerText.text = viewModel.titleForHeaderInSection(section: section)
+        headerText.backgroundColor = .lightGray
+        return headerText
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return CGFloat(50)
     }
 }
 
