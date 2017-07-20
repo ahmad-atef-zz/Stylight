@@ -16,8 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        
+        monitorInternetConnectivity()
         return true
+    }
+    
+    func monitorInternetConnectivity() {
+        InternetChecker.shared.checkForInternet { (result) in
+            if result != .REACHABLEVIAWIFI{
+                UIDecorator.shared.showMessage(title: "Warning",body: result.rawValue,alertType: .warning)
+            }
+        }
     }
 
 }

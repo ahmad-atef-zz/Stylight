@@ -17,6 +17,8 @@
 		015EFBD41F1C66570015E97A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015EFBD31F1C66570015E97A /* Router.swift */; };
 		019619051F1ECC7100450660 /* BrandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019619041F1ECC7100450660 /* BrandService.swift */; };
 		019619071F1FC96000450660 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019619061F1FC96000450660 /* SectionData.swift */; };
+		019619091F20388000450660 /* UIDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019619081F20388000450660 /* UIDecorator.swift */; };
+		0196190B1F20395000450660 /* InternetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196190A1F20395000450660 /* InternetChecker.swift */; };
 		01A89FAF1F1D975800865941 /* BrandsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A89FAE1F1D975800865941 /* BrandsViewModel.swift */; };
 		01A89FB11F1D97F900865941 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A89FB01F1D97F900865941 /* Brand.swift */; };
 		E446CE5ECB8063112F5FF315 /* Pods_Stylight_Technical_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0355C7A197B0E045A4DBD476 /* Pods_Stylight_Technical_Task.framework */; };
@@ -36,6 +38,8 @@
 		015EFBD51F1C6D970015E97A /* Stylight Draft.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Stylight Draft.playground"; sourceTree = "<group>"; };
 		019619041F1ECC7100450660 /* BrandService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandService.swift; sourceTree = "<group>"; };
 		019619061F1FC96000450660 /* SectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
+		019619081F20388000450660 /* UIDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDecorator.swift; sourceTree = "<group>"; };
+		0196190A1F20395000450660 /* InternetChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetChecker.swift; sourceTree = "<group>"; };
 		01A89FAE1F1D975800865941 /* BrandsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsViewModel.swift; sourceTree = "<group>"; };
 		01A89FB01F1D97F900865941 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		0355C7A197B0E045A4DBD476 /* Pods_Stylight_Technical_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stylight_Technical_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +119,8 @@
 			children = (
 				015EFBD31F1C66570015E97A /* Router.swift */,
 				0121D82B1F1DBACF0078B979 /* Helpers.swift */,
+				019619081F20388000450660 /* UIDecorator.swift */,
+				0196190A1F20395000450660 /* InternetChecker.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -305,7 +311,9 @@
 			files = (
 				015EFBD01F1C63200015E97A /* BrandsViewController.swift in Sources */,
 				015EFBD41F1C66570015E97A /* Router.swift in Sources */,
+				0196190B1F20395000450660 /* InternetChecker.swift in Sources */,
 				0121D82C1F1DBACF0078B979 /* Helpers.swift in Sources */,
+				019619091F20388000450660 /* UIDecorator.swift in Sources */,
 				01A89FAF1F1D975800865941 /* BrandsViewModel.swift in Sources */,
 				01A89FB11F1D97F900865941 /* Brand.swift in Sources */,
 				019619071F1FC96000450660 /* SectionData.swift in Sources */,
