@@ -8,5 +8,7 @@ target 'Stylight Technical Task' do
   # Pods for Stylight Technical Task
   pod 'Alamofire', '~> 4.5'
   pod 'BEMCheckBox', '~> 1.4'
+  pod 'ReachabilitySwift', '~> 3'
+  pod 'SwiftMessages'
 
 end
